@@ -18,7 +18,6 @@ const partialPath = path.join(__dirname, "../views/partials");
 hbs.registerPartials(partialPath);
 
 server.get("/", (req, res) => {
-    console.log("Home route");
     res.render("index", {title: "Weather App", author: "Beyond"});
 });
 
@@ -51,10 +50,3 @@ server.get("/weather", (req, res) => {
 });
 
 server.listen(3000);
-
-
-
-// Repository Management System
-// Git, 
-
-// dkgjhdfkgdfhgkdfg
