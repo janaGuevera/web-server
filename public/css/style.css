@@ -1,0 +1,56 @@
+/* ========================= Global Styles ====================== */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: lightgray;
+    margin: 20px 0;
+}
+
+/* ========================= Main Styles ======================== */
+.container{
+    max-width: 650px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.nav a{
+    text-decoration: none;
+    padding-right: 5px;
+}
+
+form{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+input{
+    padding: 5px 10px;
+}
+
+input[type=submit]{
+    border: none;
+    padding: 8px 10px;
+}
+
+
+input[type=submit]:hover{
+    cursor: pointer;
+}
+
+/* ============================= Footer Section ====================== */
+footer p {
+    padding-top: 10px;
+    border-top: 1px solid black;
+    margin: 0 0 10px 0;
+}
+
+
+.error{
+    color: red;
+}
