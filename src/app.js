@@ -17,6 +17,8 @@ server.set("view engine", "hbs");
 const partialPath = path.join(__dirname, "../views/partials");
 hbs.registerPartials(partialPath);
 
+
+// Routes for interface
 server.get("/", (req, res) => {
     res.render("index", {title: "Weather App", author: "Beyond"});
 });
