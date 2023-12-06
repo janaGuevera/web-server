@@ -20,15 +20,15 @@ hbs.registerPartials(partialPath);
 
 // Routes for interface
 server.get("/", (req, res) => {
-    res.render("index", {title: "Weather App", author: "Beyond"});
+    res.render("index", {title: "Forecast", author: "Beyond"});
 });
 
 server.get("/about", (req, res) => { 
-    res.render("about", {title: "Weather App", author: "Beyond Training"});
+    res.render("about", {title: "Forecast", author: "Beyond Training"});
 });
 
 server.get("/help", (req, res) => { 
-    res.render("help", {title: "Weather App", author: "Beyond Training"});
+    res.render("help", {title: "Forecast", author: "Beyond Training"});
 });
 
 server.get("/weather", (req, res) => {
