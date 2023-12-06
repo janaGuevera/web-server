@@ -51,5 +51,11 @@ server.get("/weather", (req, res) => {
     }
 });
 
-server.listen(3000);
+var port = process.env.PORT;
+
+if(!port){
+    port = 3000;
+}
+
+server.listen(port);
 
